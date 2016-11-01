@@ -1,0 +1,86 @@
+body{
+	font-family:"arial";
+	padding:100px;
+	
+}
+.nav{
+	background-color:#000;
+	border-bottom:2px solid #ccc;
+	
+	height:60px;
+}
+.navbar-brand{
+	font-size:32px;
+	color:#fff;
+	text-transform:capitalize;	
+	padding-top:10px;
+	padding-bottom:5px;
+	line-height:0.8;
+}
+.tag-line{
+	padding-top:5px;
+	font-size:18px;
+	display:block;
+	
+}
+.cart-icon{
+	color:#fff;
+	font-size:16px;
+}
+.badge{
+	color:#fff;
+	background-color: #D50000;
+}
+.navbar-nav li a{
+	transition:0.1s;
+}
+.navbar-nav li a:hover{
+	border-bottom:5px solid #8BC34A;
+}
+.product-container{
+	background-color:#fff;
+	width:100%;
+	padding:10px;
+	height:auto;
+	text-align: center;
+
+	border-radius:5px;
+	box-shadow:3px 3px 15px #bbb;
+	margin:20px;
+}
+
+.product-image{
+	
+
+}
+.product-title{
+	text-align: left;
+	font-size:16px;
+	font-weight: 600;
+}
+.product-tag-line{
+	font-size:13px;
+	float:left;
+	font-weight:600;
+}
+.details{
+	margin: 20px 0px 20px 0px;
+}
+.descp{
+	position:absolute;
+	top:55px;
+	width:auto;
+	padding:10px;
+	height:auto;
+	
+	z-index:1;
+	color:#fff;
+	background-color: rgba(0,0,0,0.8);
+}
+.descp p{
+	color:#fff;
+	text-transform:capitalize;
+}
+hr{
+	margin:0;
+}
